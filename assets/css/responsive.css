@@ -1,0 +1,121 @@
+@media screen and (max-width: 767px){
+
+/*hide nav*/
+/*.nav{
+	display: none;
+}*/
+
+/*Nav responsive*/
+.nav { 
+	display: block;
+    position: absolute;
+    right: 0px;
+    flex-direction: column;
+    background:#ff9243;
+    top: 96px;
+    min-width: 200px;
+    transition: all .7s ease-in-out;
+    opacity: 0;
+    z-index: -1;
+}
+
+.nav.active {  
+    opacity: 1;
+    z-index: 100
+}
+
+
+
+/*mobile menu button*/
+
+.menu-btn{
+display: block;
+}
+
+
+/*all section width to 95%*/
+.nav-container,.header-container,.title,.process-area,.screen-pic,.review-area,.download-area,.contact-list,.footer-text{
+	width: 95% ! important;
+}
+
+
+
+
+/*header css*/
+
+.header-container>.picture>img{
+	width: 100%;
+}
+
+
+.header-container > .message > h2{
+	font-size: 40px;
+
+}
+
+
+.download-btn > a.android{
+	margin-left: 0px;
+	margin-top: 51px;
+}
+
+
+
+.process-box{
+	width: 100%;
+	padding-top: 30px ! important
+}
+
+section.work-process{
+	padding-bottom: 80px
+}
+
+
+
+
+
+
+.screen-pic{
+	padding:0px 20px;
+}
+
+
+
+.review-area{
+	padding-left: 0px
+}
+
+
+.review-area .review-carousel{
+	width: 100%
+}
+
+
+.review-carousel > .prev{
+	left: -6px;
+}
+
+
+.review-carousel > .next{
+	right: 6px
+}
+
+
+
+
+.download-area{
+	padding: 30px
+}
+
+
+
+.download-area .download-btn>a:nth-child(2){
+	margin-top: 0px;
+	margin-left: 10px
+}
+
+
+
+
+
+}
